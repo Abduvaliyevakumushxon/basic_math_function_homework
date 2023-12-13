@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    x=a/b
+    c=int(x)
+    return x
+print(main(11,2))
